@@ -17,6 +17,7 @@ It allows users to scan multiple targets across a custom port range and automati
 
 Use `g++`:
   g++ scanx.cpp -o scanx
+ 
   ./scanx
 
 You will be asked:
