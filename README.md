@@ -11,6 +11,7 @@ It allows users to scan multiple targets across a custom port range and automati
 - 🔴 Show **closed** ports  
 - 💾 Automatically saves results to a text file  
 ---
+
 ## 🛠️ Compile
 
 Use `g++`:
@@ -32,11 +33,15 @@ Enter IP 1: 192.168.1.1
 Enter IP 2: 192.168.1.10
 Enter start port: 20
 Enter end port: 100
+
 ---
+
 ## 📄 Output File
 
 All open ports for every IP are saved to:
 scan_results.txt
+
+---
 
 ## 📚 Requirements
 
@@ -44,12 +49,15 @@ scan_results.txt
 
     g++ compiler
 
+---
+
 ## ⚠️ Legal & Ethical Notice
 
 ScanX is created for educational and ethical security testing purposes only.
 Do NOT scan systems you don't have permission to test.
 
 ---
+
 ## ⭐ Contribute
 
 welcome!
