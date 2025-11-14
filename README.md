@@ -9,31 +9,8 @@ It allows users to scan multiple targets across a custom port range and automati
 - 🔍 Scan **multiple IP addresses** in one run  
 - 🟢 Detect **open** ports  
 - 🔴 Show **closed** ports  
-- 💾 Automatically saves results to a text file  
----
-
-## 🛠️ Compile
-
-Use `g++`:
-```bash
-g++ scanx.cpp -o scanx
-▶️ Run
-./scanx
-
-You will be asked:
-
-    Number of IPs
-    The IP addresses
-    Start port
-    End port
-
-Example:
-Enter number of IPs to scan: 2
-Enter IP 1: 192.168.1.1
-Enter IP 2: 192.168.1.10
-Enter start port: 20
-Enter end port: 100
-
+- 💾 Automatically saves results to a text file 
+ 
 ---
 
 ## 📄 Output File
