@@ -12,6 +12,7 @@ It allows users to scan multiple targets across a custom port range and automati
 - 💾 Automatically saves results to a text file 
  
 ---
+
 ## 🛠️ Compile
 
 Use `g++`:
@@ -35,6 +36,7 @@ Enter end port: 100
 
 
 ---
+
 ## 📄 Output File
 
 All open ports for every IP are saved to:
