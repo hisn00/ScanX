@@ -32,7 +32,7 @@ Enter IP 1: 192.168.1.1
 Enter IP 2: 192.168.1.10
 Enter start port: 20
 Enter end port: 100
-
+---
 ## 📄 Output File
 
 All open ports for every IP are saved to:
