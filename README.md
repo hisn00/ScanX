@@ -1,4 +1,4 @@
-# ⚡ ScanX – Multi‑IP Port Scanner (C++)
+89# ⚡ ScanX – Multi‑IP Port Scanner (C++)
 
 ScanX is a lightweight, fast and beginner friendly **multi IP port scanner** written in C++.  
 It allows users to scan multiple targets across a custom port range and automatically saves the results to `scan_results.txt`.
@@ -17,7 +17,6 @@ It allows users to scan multiple targets across a custom port range and automati
 
 Use `g++`:
 g++ scanx.cpp -o scanx
-▶️ Run
 ./scanx
 
 You will be asked:
@@ -28,6 +27,7 @@ You will be asked:
     End port
 
 Example:
+
 Enter number of IPs to scan: 2
 Enter IP 1: 192.168.1.1
 Enter IP 2: 192.168.1.10
