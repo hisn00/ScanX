@@ -20,13 +20,6 @@ scan_results.txt
 
 ---
 
-## 📚 Requirements
-
-    Linux environment (socket libraries)
-    g++ compiler
-
----
-
 ## ⚠️ Legal & Ethical Notice
 
 For educational and ethical security testing purposes only.Do NOT scan systems you don't have permission to test.
