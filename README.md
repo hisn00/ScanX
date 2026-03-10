@@ -5,7 +5,7 @@ It allows users to scan multiple targets across a custom port range and automati
 
 ## Legal & Ethical Notice
 
-For educational and ethical security testing purposes only.Do NOT scan systems you don't have permission to test:).
+For educational and ethical security testing purposes only.Do NOT scan systems you don't have permission to test:)
 
 ## Contribute
 
