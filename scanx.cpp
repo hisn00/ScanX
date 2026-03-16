@@ -33,7 +33,6 @@ int main() {
     int startPort, endPort;
 
     cout << CYAN << "=== ScanX Multi-IP Port Scanner ===" << RESET << endl;
-
     int count;
     cout << "Enter number of IPs to scan: ";
     cin >> count;
@@ -54,11 +53,9 @@ int main() {
     ofstream file("scan_results.txt");
 
     cout << CYAN << "\nStarting scan...\n" << RESET;
-
     for (const string& ip : targets) {
         cout << CYAN << "\nScanning IP: " << ip << RESET << endl;
         file << "Scan Results for " << ip << ":\n";
-
         for (int port = startPort; port <= endPort; port++) {
             if (scanPort(ip, port)) {
                 cout << GREEN << "[OPEN] Port " << port << RESET << endl;
@@ -67,12 +64,9 @@ int main() {
                 cout << RED << "[CLOSED] Port " << port << RESET << endl;
             }
         }
-
         file << "\n";
     }
-
     file.close();
     cout << CYAN << "\nScan complete. Results saved to scan_results.txt\n" << RESET;
-
     return 0;
 }
